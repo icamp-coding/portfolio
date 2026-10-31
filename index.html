@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <meta name="description" content="Portfolio: video & photo editing, English teaching, social media marketing, AI evaluation, event coordination, recreation management and wellness & beauty consultation.">
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#work">Skip to work</a>
+
+  <header class="nav">
+    <a class="nav-logo" href="#top" aria-label="Back to top"></a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-ink nav-cta" href="#contact">Hire me</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow hero-eyebrow"><span class="dot"></span><span data-field="availability"></span></p>
+      <h1 class="hero-title">
+        <span class="line"><span>I create experiences</span></span>
+        <span class="line"><span>people remember</span></span>
+        <span class="line"><span><em class="rotator-word"></em></span></span>
+      </h1>
+      <div class="hero-foot">
+        <p class="hero-sub" data-field="intro"></p>
+        <dl class="hero-meta" id="heroMeta"></dl>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div class="marquee-track"></div></div>
+
+    <section class="motto" id="motto">
+      <p class="eyebrow motto-label"></p>
+      <blockquote class="motto-quote">
+        <span class="motto-line"><span class="motto-lead"></span></span>
+        <span class="motto-line"><span class="motto-twist"></span></span>
+      </blockquote>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section-head">
+        <p class="eyebrow reveal">Selected work</p>
+        <h2 class="section-title reveal"><span id="craftCount">Seven</span> crafts, <em>one through-line.</em></h2>
+        <p class="section-lead reveal">Pick a skill to see the work, results and certifications behind it. Each one has its own link you can share.</p>
+      </div>
+      <div class="skill-grid" id="skillGrid"></div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="about-grid">
+        <div class="about-photo reveal" id="aboutPhoto"><span>Add your photo</span></div>
+        <div class="about-text">
+          <p class="eyebrow reveal">About</p>
+          <h2 class="section-title reveal">The common thread is <em>people.</em></h2>
+          <div id="aboutText"></div>
+          <dl class="facts reveal" id="aboutFacts"></dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="section">
+        <p class="eyebrow reveal">Contact</p>
+        <h2 class="contact-title reveal">Let's make something <em>memorable.</em></h2>
+        <a class="contact-email reveal" id="contactEmail" href="#"></a>
+        <div class="contact-row reveal" id="contactRow"></div>
+      </div>
+      <footer class="footer">
+        <span id="footerName"></span>
+        <a href="#top">Back to top ↑</a>
+      </footer>
+    </section>
+  </main>
+
+  <div class="expander" id="expander" aria-hidden="true"></div>
+  <div class="panel" id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" tabindex="-1" hidden></div>
+  <div class="cursor" aria-hidden="true"><div class="cursor-ring"><span class="cursor-text">Open</span></div></div>
+  <div class="draft-pill" id="draftPill" hidden>Draft · work in progress</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="js/content.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
