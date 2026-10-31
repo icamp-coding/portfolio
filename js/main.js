@@ -207,7 +207,7 @@
           <h3 class="p-title reveal">Work samples <small>${pad(work.length)}</small></h3>
           <div class="gallery">
             ${work.map((w, n) => `
-              <figure class="work reveal" style="--d:${(n % 3) * 90}ms">
+              <figure class="work reveal${w.wide ? " is-wide" : ""}" style="--d:${(n % 3) * 90}ms">
                 ${w.image
                   ? w.link
                     ? `<a class="media" style="--ratio:${esc(w.ratio || "4/3")}" href="${esc(w.link)}" target="_blank" rel="noopener" aria-label="${esc(`${w.title}: ${w.linkLabel || "View project"}`)}"><img src="${src(w.image)}" alt="" loading="lazy"><span class="media-play">${esc(w.linkLabel || "View project")} ↗</span></a>`

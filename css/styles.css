@@ -390,6 +390,7 @@ em { font-style: italic; }
 .work h4 { font-size: 1.15rem; font-weight: 700; line-height: 1.3; margin: 6px 0 4px; }
 .work p { color: var(--muted); font-size: 0.95rem; }
 .work a { display: inline-block; margin-top: 10px; font-weight: 600; color: var(--accent); }
+.work.is-wide { grid-column: 1 / -1; display: grid; grid-template-columns: 2fr 1fr; gap: 28px; align-items: end; }
 
 .certs { list-style: none; border-top: 1px solid var(--line); }
 .cert { display: grid; grid-template-columns: auto 1fr auto; gap: 20px; align-items: center; padding: 22px 0; border-bottom: 1px solid var(--line); }
@@ -515,6 +516,7 @@ a.media:hover .media-play { background: var(--accent); }
   .skill-grid { grid-template-columns: 1fr; }
   .skill-grid > .skill-card:nth-child(n) { min-height: 260px; padding: 24px; gap: 36px; }
   .gallery { grid-template-columns: 1fr; }
+  .work.is-wide { grid-template-columns: 1fr; gap: 0; }
   .facts { grid-template-columns: 1fr 1fr; }
   .cert { grid-template-columns: auto 1fr; gap: 16px; }
   .cert a, .cert .pending { grid-column: 2; justify-self: start; }

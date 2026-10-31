@@ -62,6 +62,7 @@ window.PORTFOLIO = {
      The first two skills get the big featured cards on the home page.
      testimonials: the first quote is shown large, the rest as smaller cards.
      work ratio: shape of the image box, e.g. "4/3" (wide) or "4/5" (tall)
+     work wide: true makes a sample fill a whole row (good for screenshots with text).
      ---------------------------------------------------------------- */
   skills: [
     {
@@ -358,7 +359,7 @@ window.PORTFOLIO = {
         {
           role: "General Manager & Game Master",
           org: "International DnD Café · Bangkok",
-          dates: "",
+          dates: "04/2026",
           points: [
             "Run the café and its game nights.",
             "Host Dungeons & Dragons games in both English and Thai for local and international players.",
@@ -370,9 +371,14 @@ window.PORTFOLIO = {
         { type: "Photo", title: "Game Master at the table", description: "Running a session for local and international players.", image: "images/DnD 1.png", ratio: "6/5", link: "" },
         { type: "Photo", title: "Thumbs up after a session", description: "Lighting, terrain and miniatures set up for the story.", image: "images/DnD 2.png", ratio: "6/5", link: "" },
         { type: "Photo", title: "A full table", description: "A packed game night at the café.", image: "images/DnD 3.png", ratio: "6/5", link: "" },
+        { type: "Feedback", title: "Messages from my players", description: "What players wrote in the group chat after the last session of a mini campaign.", image: "images/DnD Feedback.png", ratio: "940/788", wide: true, link: "" },
       ],
       certifications: [],
-      testimonial: null,
+      testimonials: [
+        { quote: "One of the most satisfying mini campaigns I've played in. Really love its uniqueness and the different gameplay styles explored throughout each session.", name: "Player", role: "After a mini campaign" },
+        { quote: "I loved how each game had a different style. The story was rich and definitely plucked on the heart strings, whilst also making one laugh out loud.", name: "Player", role: "After a mini campaign" },
+        { quote: "Thank you for an amazing end to an incredible campaign. Hope to see you all again at the next game!", name: "Player", role: "After a mini campaign" },
+      ],
       cv: "",
     },
     {
