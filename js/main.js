@@ -534,4 +534,9 @@
   const onScroll = () => nav.classList.toggle("is-scrolled", scrollY > 20);
   addEventListener("scroll", onScroll, { passive: true });
   onScroll();
+
+  // Discourage casual photo saving: no right-click menu or dragging on images
+  for (const type of ["contextmenu", "dragstart"]) {
+    document.addEventListener(type, (e) => { if (e.target.closest("img")) e.preventDefault(); });
+  }
 })();
