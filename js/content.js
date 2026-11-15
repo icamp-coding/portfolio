@@ -22,7 +22,7 @@ window.PORTFOLIO = {
   email: "camp488@gmail.com",
   photo: "images/Profile pic 1.jpg",
   cv: "files/CV - Pumikorn Vittanon.pdf", // public CV: no ID, birth date or phone numbers
-  location: "Mannheim, Germany",
+  location: "Offenbach, Germany",
   languages: ["Thai (native)", "English (B2)", "German (basic)"],
   openTo: "", // e.g. "Full-time · Freelance · Remote"
   availability: "Available for new roles & projects",
@@ -42,7 +42,7 @@ window.PORTFOLIO = {
     "Social media marketer, software & AI tester, English teacher and event coordinator, from Thailand and now based in Germany. Different stages, one focus: people.",
 
   about: [
-    "I'm Pumikorn, a Thai professional based in Mannheim, Germany. My path has taken me from a law degree at Khon Kaen University and work as a paralegal, to teaching English, growing a health & beauty sales business, creating content for 88K+ TikTok followers, coordinating executive training events and evaluating AI models for ByteDance and Microsoft.",
+    "I'm Pumikorn, a Thai professional based in Offenbach, Germany. My path has taken me from a law degree at Khon Kaen University and work as a paralegal, to teaching English, growing a health & beauty sales business, creating content for 88K+ TikTok followers, coordinating executive training events and evaluating AI models for ByteDance and Microsoft.",
     "What ties it all together is people: explaining things clearly, making others feel welcome and paying close attention to detail. I'm currently looking for roles in social media marketing and software, and I'm also open to other opportunities where my mix of skills can make a difference.",
   ],
 
